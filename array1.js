@@ -1,0 +1,10 @@
+const fruits = ['Pineapple', 'Mango', 'Jackfruit', 'Banana', "strawberry"];
+console.log(fruits.indexOf('Banana'));
+fruits.shift();
+console.log(fruits);
+fruits.shift();
+console.log(fruits);
+fruits.unshift('jambura');
+fruits.unshift('Pineapple');
+console.log(fruits);
+console.log(fruits);
